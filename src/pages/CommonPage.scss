@@ -1,0 +1,16 @@
+.page {
+  display: flex;
+  flex: 1;
+  max-width: 100vw;
+  overflow-x: hidden;
+  .pageContainer {
+    flex: 1;    
+  }
+  .sidebar ~ .pageContainer{
+    width: calc(100vw - 254px);
+  }
+  .sidebar-hidden ~ .pageContainer{
+    width: 100%;
+  }
+
+}

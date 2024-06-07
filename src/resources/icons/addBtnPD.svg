@@ -1,0 +1,4 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="20" cy="20" r="19" stroke="black" stroke-opacity="0.5" stroke-width="2" stroke-dasharray="4 4"/>
+<path d="M29 18.5H21.5V11C21.5 10.172 20.828 9.5 20 9.5C19.172 9.5 18.5 10.172 18.5 11V18.5H11C10.172 18.5 9.5 19.172 9.5 20C9.5 20.828 10.172 21.5 11 21.5H18.5V29C18.5 29.828 19.172 30.5 20 30.5C20.828 30.5 21.5 29.828 21.5 29V21.5H29C29.828 21.5 30.5 20.828 30.5 20C30.5 19.172 29.828 18.5 29 18.5Z" fill="black" fill-opacity="0.5"/>
+</svg>

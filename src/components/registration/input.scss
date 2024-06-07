@@ -1,0 +1,32 @@
+.input {
+  input {
+    width: 300px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-size: 0.875em;
+    padding-left: 15px;
+  }
+
+  input:focus {
+    border: 1px solid #6171FF;
+    outline: none;
+  }
+}
+
+.inputWrong {
+  input {
+    width: 300px;
+    height: 40px;
+    background-color: #FFE6E0;
+    border: 1px solid #EB3D1D80;
+    border-radius: 10px;
+    font-size: 0.875em;
+    padding-left: 15px;
+  }
+
+  input:focus {
+    border: 1px solid #EB3D1D80;
+    outline: none;
+  }
+}

@@ -1,0 +1,29 @@
+.search {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  background-color: #F5F6FD;
+  border-radius: 10px;
+  width: 300px;
+  height: 40px;
+  
+  img {
+    position: static;
+    margin-left: 80px;
+  }
+
+  input {
+    margin-left: 10px;
+    font-size: 0.875em;
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+  
+  input::-moz-placeholder { 
+    color: black; 
+    opacity: 1;
+  }
+
+}

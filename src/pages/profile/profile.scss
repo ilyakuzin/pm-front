@@ -1,0 +1,111 @@
+.profile-content {
+  margin-top: 10px;
+  margin-left: 6%;
+
+  .projects-header {
+    font-size: calc((100vw - 480px)/(1280 - 480) * (24 - 16) + 16px);
+    margin-left: 32%;
+    font-weight: 500;
+  }
+
+  .wrapper {
+    display: flex;
+  }
+
+  .profile-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 10px;
+    width: 30%;
+    height: 12vh;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 24px;
+
+    .profile-image {
+      position: relative;
+      border-radius: 50%;
+      height: 80%;
+      margin-left: 1vw;
+      margin-right: 1vw;
+    }
+  }
+
+  .information-container {
+    margin-top: 3vh;
+    width: 30%;
+    height: 52vh;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 24px;
+    font-size: calc((100vw - 480px)/(1280 - 480) * (24 - 16) + 8px);
+    font-weight: 500;
+    padding-top: 3vh;
+    padding-left: 4vh;
+
+
+    .info {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      margin-top: 3vh;
+      font-size: calc((100vw - 480px)/(1280 - 480) * (24 - 16) + 4px);
+
+      img {
+        width: 7%;
+      }
+
+      p {
+        margin-left: 3vh;
+      }
+    }
+
+    .contacts-container {
+      margin-top: 4vh;
+    }
+  }
+
+  .projects-container {
+    width: 60%;
+    margin-top: 3vh;
+    margin-left: 3vh;
+    height: 52vh;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 24px;
+
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+
+    border: 1px solid #DBDBDB;
+
+    .container-header {
+      color: #A7A7A7;
+      margin: 15px 25px;
+      font-size: calc((100vw - 480px)/(1280 - 480) * (24 - 16) + 4px);
+      display: grid;
+      grid-template-columns: 15% 15% 15% 15% 15% 20%;
+
+      div {
+        text-align: center;
+        cursor: pointer;
+      }
+
+      p {
+        margin-top: 1.5vh;
+        text-align: center;
+      }
+    }
+
+
+    .projects-rows-profile {
+      display: flex;
+      justify-content: flex-start;
+      align-items: stretch;
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+}

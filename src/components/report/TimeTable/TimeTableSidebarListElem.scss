@@ -1,0 +1,56 @@
+.timeTableSidebarRow {
+    width: 100%;
+    margin: 0;
+
+    .timeTableUser {
+        font-weight: bold;
+        height: 50px;
+        display: grid;
+        grid-template-columns: auto 10%;
+        margin: 15px 0;
+
+        a {
+            margin: 0;
+
+            .noAvatar {
+                margin: 0;
+                margin-right: 7px;
+            }
+
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            align-items: center;
+        }
+
+    }
+
+    p {
+        margin: auto 0;
+    }
+
+    .projectsFromTimeTable {
+        width: 100%;
+        .timeTableProject {
+            a {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                .TimeTableCircle {
+                    margin: 10px;
+                    border-radius: 50%;
+                    height: 10px;
+                    width: 10px;
+                    min-width: 10px;
+                    background-color: #6171FF;
+                }
+            }
+
+            height: 50px;
+            margin: 15px;
+            margin-right: 0;
+            display: grid;
+            grid-template-columns: auto 10%;
+        }
+    }
+}

@@ -1,0 +1,189 @@
+.upperContainer {
+  display: flex;
+  align-items: center;
+
+  .nameOfProject {
+    font-size: calc((100vw - 480px)/(1280 - 480) * (24 - 16) + 26px);
+    margin-left: 8%;
+  }
+
+  .projectStatus {
+    font-weight: 400;
+    font-size: calc((100vw - 480px)/(1280 - 480) * (24 - 16) + 4px);
+    margin-left: 1.4%;
+  }
+}
+
+.containerInfo {
+  display: flex;
+  justify-content: center;
+}
+
+.headerInfo {
+  margin-top: 35px;
+  margin-left: 25%;
+  font-weight: 500;
+  font-size: calc((100vw - 480px)/(1280 - 480) * (24 - 16) + 14px);
+}
+
+.mgtop0 {
+  margin-top: 0;
+}
+
+.users {
+  margin-left: 25%;
+}
+
+.projectsTable {
+  margin: 20px 0px;
+  background-color: #FFFFFF;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  overflow-y: auto;
+
+  border: 1px solid #DBDBDB;
+
+  hr {
+    border: 1px solid rgba(0,0,0,0.04);
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .projectsHeader {
+    color: #A7A7A7;
+    margin: 15px 25px;
+    font-size: 0.75em;
+    display: grid;
+    grid-template-columns: 15% 18% 17% 17% 17% 17%;
+
+    div {
+      text-align: center;
+    }
+
+    p {
+      text-align: left;
+    }
+
+    .projectsDate {
+      display: flex;
+      img {
+        margin-left: 5px;
+      }
+    }
+  }
+}
+
+.projectdetails_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 68%;
+  margin-left: 140px;
+  margin-top: 25px;
+}
+
+.dfjs {
+
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+
+  .history_row_managerName {
+    display: flex;
+    gap: 10px;
+
+
+    p {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+      color: #000000;
+
+    }
+  }
+
+  .history_row_date {
+    display: flex;
+    gap: 8px;
+
+    p {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+
+      color: #A7A7A7;
+    }
+  }
+}
+
+.history_row_changes {
+  margin-top: 15px;
+
+  .history_row_change {
+    p {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+
+      color: #A7A7A7;
+    }
+  }
+}
+
+.history_data {
+  margin-left: 28%;
+  margin-right: 20%;
+  height: 65vh;
+  overflow-y: auto;
+}
+
+.modalInputComments {
+  margin-left: 25%;
+  position: relative;
+  margin-top: 20px;
+
+  textarea {
+    position: relative;
+    padding-top: 10px;
+    resize: none;
+    height: 20vh;
+    width: 44vw;
+    border: 1px solid #DBDBDB;
+    border-radius: 10px;
+    padding-left: 15px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: calc((100vw - 480px)/(1280 - 480) * (24 - 16));
+    line-height: 17px;
+  }
+
+  textarea:focus {
+    border: 1px solid #6171FF;
+    outline: none;
+  }
+}
+
+.comment-button {
+  text-align: center;
+  border: none;
+  color: white;
+  background: #6171FF;
+  width: 7vw;
+  height: 4vh;
+  font-weight: 500;
+  font-size: calc((100vw - 480px)/(1280 - 480) * (24 - 16));
+  border-radius: 10px;
+  cursor: pointer;
+  position: absolute;
+  z-index: 100;
+  top: 75%;
+  left: 36vw;
+}

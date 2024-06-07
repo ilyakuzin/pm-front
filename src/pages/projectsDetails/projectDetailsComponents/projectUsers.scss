@@ -1,0 +1,65 @@
+.users-container {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+
+  img {
+    border-radius: 50%;
+    width: 40px;
+    cursor: pointer;
+  }
+
+  p {
+    cursor: pointer;
+    font-weight: 500;
+    margin-left: 10px;
+    font-size: calc((100vw - 480px)/(1280 - 480) * (24 - 16) + 4px);
+  }
+}
+
+.developersBox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 70%;
+
+  img {
+    margin-bottom: 30px;
+  }
+
+  .addUserHeader {
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+  }
+
+  .developer {
+    margin-right: 30px;
+    margin-bottom: 20px;
+
+    display: flex;
+
+    .avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      background-color: #f5f5fd;
+      color: #6171FF;
+      font-weight: 600;
+      font-size: 1em;
+      align-items: center;
+      justify-content: center;
+    }
+
+    p {
+      font-size: 14px;
+    }
+
+    .post {
+      margin-top: 5px;
+      color: #a7a7a7;
+    }
+  }
+
+}

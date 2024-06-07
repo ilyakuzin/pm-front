@@ -1,0 +1,29 @@
+.delete-button-enabled {
+  text-align: center;
+  button {
+    border: none;
+    color: white;
+    background: #6171FF;
+    width: 150px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+}
+
+.delete-button-disabled {
+  text-align: center;
+  button {
+    border: none;
+    color: #1C1C1C;
+    font-weight: 500;
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    background: #F5F6FD;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+}

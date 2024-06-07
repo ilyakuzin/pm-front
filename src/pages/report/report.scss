@@ -1,0 +1,22 @@
+.reportContent {
+  margin-top: 10px;
+  margin-left: 6%;
+
+  .link--wrapper {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    float: right;
+    margin-right: 50px;
+    cursor: pointer;
+
+    p{
+      font-family: 'Inter';
+      font-weight: 500;
+      font-size: 1.25em;
+      line-height: 24px;
+      color: #000000;
+
+    }
+  }
+}

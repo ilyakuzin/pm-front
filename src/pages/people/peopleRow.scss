@@ -1,0 +1,63 @@
+.noAvatar {
+  margin: auto;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  background-color: #f5f5fd;
+  color: #6171FF;
+  font-weight: 600;
+  font-size: 0.75em;
+  align-items: center;
+  justify-content: center;
+}
+
+.peopleRow {
+  margin: 0px 20px;
+  //width: 100%;
+  padding: 30px 0px;
+  display: grid;
+  grid-template-columns: 6% 25% 5% 30% 5% 25%;
+  border-top: 1px solid #F3F2F8;
+  
+  p {
+    text-align: left;
+  }
+
+  .peopleContainer {
+    display: flex;
+    p {
+      margin-left: 15px;
+      text-align: left;
+    }
+  }
+
+  p {
+    .mPhoto {
+      margin-right: 7px;
+    }
+
+    font-size: 0.75em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+
+  .projectStatus {
+    text-align: left;
+
+    p {
+      width: min-content;
+    }
+
+    .statusEmoji {
+      font-size: 17px;
+    }
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

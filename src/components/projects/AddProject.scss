@@ -1,0 +1,112 @@
+.addProject {
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color: rgba(0, 0, 0, 0.25);
+  z-index: 9999;
+  
+}
+
+.manager-name {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  img {
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+}
+
+.add-project_container{
+  position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 636px;
+    width: 450px;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 10px;
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.55);
+}
+
+
+
+.add-project_container_title {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 30px 25px 30px;
+  margin: 0;
+  h1 {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+  }
+
+  
+}
+
+.add-project_container_link {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.add-project_container_image{
+  cursor: pointer;
+  width: 16px;
+}
+
+.text-field {
+  padding: 11px 31px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  .input-data {
+    border-radius: 10px;
+    width: 390px;
+    height: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875em;
+    line-height: 17px;
+    padding-left: 19.5px;
+    border: 1px solid rgba(0,0,0,0.5);
+  }
+
+  .calendar-icon {
+    position: absolute;
+    width: 16.67px;
+    height: 18.33px;
+    top: 355px;
+    right: 40px;
+    cursor: pointer;
+  }
+
+  
+
+  input:focus {
+    border: 1px solid #6171FF;
+    outline: none;
+  }
+
+  p{
+    font-weight: 500;
+    font-size: 0.875em;
+    line-height: 17px;
+    color: #000000;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

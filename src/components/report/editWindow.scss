@@ -1,0 +1,152 @@
+.editWindow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: 9999;
+
+}
+
+.edit-window_container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    //height: 636px;
+    //width: 450px;
+    height: max-content;
+    width: max-content;
+    //width: 25%;
+    padding: 15px;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 10px;
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.55);
+    .modal-button-wrapper_disabled{
+        margin: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .modal-button-wrapper{
+        margin: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.edit-window_DatePick{
+    position: absolute;
+    width: min-content;
+    display: flex;
+    margin-top: -50%;
+    margin-right:10% ;
+    .window-modal{
+        width: 100%;
+        position: static;
+        right: 0;
+        left: 0;
+        top:0;
+    }
+}
+
+.edit-window_container_title {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px 25px 30px;
+    margin: 0;
+
+    .salaryUserBox {
+        .noAvatar {
+            margin: 7px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            background-color: #F5F6FD;
+            color: #6171FF;
+            font-weight: 600;
+            align-items: center;
+            justify-content: center;
+        }
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0 50px;
+    }
+
+}
+
+.edit-window_container_link {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.edit-window_container_image {
+    cursor: pointer;
+    width: 16px;
+}
+
+.text-field {
+    padding: 11px 31px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    .input-data {
+        border-radius: 10px;
+        width: 390px;
+        height: 40px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.875em;
+        line-height: 17px;
+        padding-left: 19.5px;
+
+    }
+
+    .calendar {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        cursor: pointer;
+        //border: 1px solid rgba(0, 0, 0, 0.5);
+        .calendar-img {
+            width: 16.67px;
+            height: 18.33px;
+            position: absolute;
+            margin-right: 10px;
+            margin-top: 10px;
+            //cursor: pointer;
+            //margin-top: -20px;
+        }
+    }
+
+
+
+    .calendar:focus {
+        border: 1px solid #6171FF;
+        outline: none;
+    }
+
+    p {
+        font-weight: 500;
+        font-size: 0.875em;
+        line-height: 17px;
+        color: #000000;
+    }
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}

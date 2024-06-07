@@ -1,0 +1,74 @@
+.salaryRow {
+    //margin: 0px 0px;
+    //width: 100%;
+    padding: 10px 0px;
+    display: grid;
+    font-size: 0.75em;
+    grid-template-columns: 18% 10% 10% 11% 11% 10% 10% 10% 10%;
+    border-top: 1px solid #F3F2F8;
+
+    p {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .editImg{
+        height: 27%;
+        margin-right: -27%;
+    }
+
+    .salaryUserBox {
+
+        a {
+            .noAvatar {
+                margin: 7px;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                display: flex;
+                background-color: #F5F6FD;
+                color: #6171FF;
+                font-weight: 600;
+                align-items: center;
+                justify-content: center;
+            }
+
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            align-items: center;
+        }
+    }
+}
+
+.projectMoreMenu {
+    padding: 5px 7px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    max-height: 30vh;
+    overflow-y: auto;
+    position: absolute;
+
+    p {
+        margin: 5px;
+    }
+
+    border: 1px solid #DBDBDB;
+}
+
+.salaryRow img {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%
+}
+
+
+A {
+    text-decoration: none;
+    color: inherit;
+}

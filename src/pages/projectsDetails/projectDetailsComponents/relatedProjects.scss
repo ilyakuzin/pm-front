@@ -1,0 +1,21 @@
+.project-user {
+  margin-left: 30px;
+  display: flex;
+
+  .project-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    background-color: #6171FF;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .post {
+    margin-top: 5px;
+    color: #a7a7a7;
+  }
+}

@@ -1,0 +1,133 @@
+.developer--table {
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 24px;
+    display: flex;
+    overflow-y: auto;
+    padding-right: 18px;
+    ::-webkit-scrollbar-track {
+        background: #FFFFFF;
+    }
+    ::-webkit-scrollbar-thumb {
+        border: 3px solid #FFFFFF;
+    }
+}
+
+.developer-table--content {
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    
+    .table--header {
+        display: flex;
+        background: #FFFFFF;
+        
+        
+        height: 62px;
+            div{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+    
+                h1{
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #000000;
+                }
+    
+                p{
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 20px;
+                    text-align: center;
+                    color: #A7A7A7;
+                    text-transform: uppercase;
+                }
+            }
+    }
+
+    .table--body{
+        .table--body_row {
+            display: flex;
+            height: 40px;
+
+            .table--body_item {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-top: 1px solid #F3F2F8;
+                height: 40px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                color: #000000;
+            }
+
+            .table--body_item:hover {
+                background-image: url(../../../../resources/icons/edit.svg);
+                background-position: center;
+                background-repeat: no-repeat;
+                transition: background-color .3s ease;
+                cursor: pointer;
+                :nth-child(1) {
+                    display: none;
+                }
+            }
+
+            .table--body_item_null {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-top: 1px solid #F3F2F8;
+                height: 40px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                color: #000000;
+            }
+
+            .table--body_item_hidden {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-top: 1px solid #F3F2F8;
+                height: 40px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                color: #000000;
+            }
+        }
+    }
+
+    .table--footer {
+        .table--foter_row {
+            display: flex;
+            height: 40px;
+            
+            .table--foter_item {
+            }
+        }
+    }
+}
+
+
+
+
+
